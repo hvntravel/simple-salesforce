@@ -8,7 +8,7 @@ dynamic = ["version", "readme"]
 description = "A basic Salesforce.com REST API client."
 authors = [{ name = "Nick Catalano", email = "nickcatal@gmail.com" }]
 maintainers = [{ name = "Jonathan Wobken", email = "jonathanwobken@gmail.com" }]
-license = "Apache-2.0"
+license = { text = "Apache-2.0" }
 requires-python = ">=3.8"
 dependencies = [
     "requests>=2.22.0",
