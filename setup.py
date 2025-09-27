@@ -13,5 +13,5 @@ setup(
     version=about["__version__"],
     packages=["simple_salesforce"],
     include_package_data=True,
-    python_requires=">=3.9",
+    python_requires=">=3.8",
 )

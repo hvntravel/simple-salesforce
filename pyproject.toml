@@ -8,8 +8,8 @@ dynamic = ["version", "readme"]
 description = "A basic Salesforce.com REST API client."
 authors = [{ name = "Nick Catalano", email = "nickcatal@gmail.com" }]
 maintainers = [{ name = "Jonathan Wobken", email = "jonathanwobken@gmail.com" }]
-license = "Apache-2.0"
-requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.8"
 dependencies = [
     "requests>=2.22.0",
     "typing-extensions",
@@ -24,6 +24,7 @@ classifiers = [
     "Intended Audience :: System Administrators",
     "Operating System :: OS Independent",
     "Topic :: Internet :: WWW/HTTP",
+    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -66,7 +67,7 @@ readme = { file = "README.rst", content-type = "text/x-rst" }
 # Black formatting
 [tool.black]
 line-length = 88
-target-version = ['py39']
+target-version = ['py38']
 include = '\.pyi?$'
 extend-exclude = '''
 /(
